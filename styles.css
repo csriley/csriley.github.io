@@ -1,5 +1,5 @@
 body{
-    background:red;
+    background:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
@@ -7,16 +7,27 @@ body{
     display: flex;
     padding:10px;
     margin: 10px;
-    background: royalblue;
+    margin-bottom: 30px;
+    background: goldenrod ;
+    border-radius: 5px;
+    box-shadow: 5px 10px gold;
 }
 .assignment img{
     width: 200px;
     padding:10px;
-    background: red;
-    
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 h1{
     color:gold;
     text-align: center;
+}
+a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.assignment a:hover{
+    color: yellow;
 }
